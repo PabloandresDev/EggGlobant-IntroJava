@@ -13,16 +13,14 @@ public class Ejercicio21 {
         int[][] miniMatriz = new int[3][3];
         Random random = new Random();
 
-        int i;
-        int j;
-        for (i = 0; i < 10; ++i) {
-            for (j = 0; j < 10; ++j) {
+        for (int i = 0; i < 10; ++i) {
+            for (int j = 0; j < 10; ++j) {
                 matriz[i][j] = random.nextInt(99);
             }
         }
 
-        for (i = 0; i <= 2; ++i) {
-            for (j = 0; j <= 2; ++j) {
+        for (int i = 0; i <= 2; ++i) {
+            for (int j = 0; j <= 2; ++j) {
                 miniMatriz[i][j] = matriz[i + 4][j + 4];
             }
         }
@@ -52,11 +50,9 @@ public class Ejercicio21 {
                 }
             }
         }
-
         if (!esContenida) {
             System.out.println("La mini matriz no esta contenida en la matriz");
         }
-
     }
 
     public static void mostrarMatriz(int[][] matriz) {
