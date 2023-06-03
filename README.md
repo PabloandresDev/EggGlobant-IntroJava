@@ -1,2 +1,2 @@
 # EggGlobant-IntroJava
-Archivos del curso de Globant dictado por Egg con el lenguaje JAVA
+Guia teorica y ejercicios resueltos con el lenguaje JAVA 
