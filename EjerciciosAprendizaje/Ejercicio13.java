@@ -1,7 +1,12 @@
 package EjerciciosAprendizaje;
 
 import java.util.Scanner;
-
+//Dibujar un cuadrado de N elementos por lado utilizando el carácter “*”. Por ejemplo, si el
+//cuadrado tiene 4 elementos por lado se deberá dibujar lo siguiente:
+//* * * *
+//*     *
+//*     *
+//* * * *
 public class Ejercicio13 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
